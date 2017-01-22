@@ -1,8 +1,5 @@
 # NbaNhl
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/nba_nhl`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
 
 This is a Ruby gem that shows scores, schedules, and standings of teams in the NBA and NHL. Users can select whether they would like to view the league standings of the NBA or NHL. Within each league, users can see the scores of past games and the schedule of future games for a specific team or for the entire league. If a user selects a specific team, they are able to see the team's players and other team and player stats.
 
