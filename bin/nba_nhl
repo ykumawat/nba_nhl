@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require './lib/nba_nhl'
+
+NbaNhl::CLI.new.call

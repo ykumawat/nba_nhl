@@ -1,5 +1,2 @@
-require "nba_nhl/version"
-
-module NbaNhl
-  # Your code goes here...
-end
+require_relative "./nba_nhl/version"
+require_relative "./nba_nhl/cli"
