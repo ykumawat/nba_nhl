@@ -18,13 +18,13 @@ class NbaNhl::CLI
     choice = gets.strip.to_i
     case choice
       when 1
-        puts "Standings"
+        nba_standings
+      when 2
+        nba_scores
       when 3
-        puts "Scores"
-      when 3
-        puts "Schedule"
+        nba_schedule
       when 4
-        puts "Team info"
+        nba_teaminfo
     end
 
   end
@@ -35,14 +35,16 @@ class NbaNhl::CLI
     choice = gets.strip.to_i
     case choice
       when 1
-        puts "Standings"
+        nhl_standings
+      when 2
+        nhl_scores
       when 3
-        puts "Scores"
-      when 3
-        puts "Schedule"
+        nhl_schedule
       when 4
-        puts "Team info"
+        nhl_teaminfo
     end
   end
+
+  
 
 end
